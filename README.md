@@ -2,6 +2,15 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+## Environment variables
+
+Create a `.env` file in the project root.
+
+Set the following values (from **Supabase Dashboard → Project Settings → API**):
+
+- **NEXT_PUBLIC_SUPABASE_URL**: `https://<project-ref>.supabase.co`
+- **NEXT_PUBLIC_SUPABASE_ANON_KEY**: your project's **anon public** key
+
 First, run the development server:
 
 ```bash
